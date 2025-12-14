@@ -3,7 +3,7 @@ import os
 
 api_key = os.getenv("GEMINI_API_KEY")
 if not api_key:
-    api_key = "AIzaSyC-oXwWUayxKjpBGC2AWZniqAZKAPWDcu4"
+    api_key = "YOUR API KEY"
     print("Warning: GEMINI_API_KEY environment variable not set. Using fallback key.")
 
 genai.configure(api_key=api_key)

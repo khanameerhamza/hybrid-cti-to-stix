@@ -293,3 +293,23 @@ OUTPUT:
 ---
 
 This visual guide shows the complete data flow from raw CTI documents through entity extraction, relationship extraction, validation, and final merged output!
+
+
+
+After having put the csv's of mitre's open source Knowledge Base, the dataset of Stixnet downloaded, installing all the requirements and training the models(Highly recommend to use GPU for training).
+run the implementation using the following commands:
+
+For batch processing with the Dataset being in the main directory in a folder named Data:
+(base) khanhamza@Ameers-MacBook-Air new_version 2 copy % python main_pipeline.py
+
+Note: the project directory was named "new_version 2 copy" in my system.
+
+
+For single cti report processing i had a web app developed which you can run with the following command:
+(base) khanhamza@Ameers-MacBook-Air new_version 2 % streamlit run app.py
+
+
+
+
+
+
